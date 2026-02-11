@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane alignment="CENTER" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4A4A4A;" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25">
+<GridPane alignment="CENTER" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4A4A4A;" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="com.farmingdale.w3labcsc311.HelloController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -27,11 +27,11 @@
       <Label style="-fx-text-fill: #FFFFFF;" text="Loan Amount:" GridPane.rowIndex="2" />
       <Label style="-fx-text-fill: #FFFFFF;" text="Monthly Payment:" GridPane.rowIndex="3" />
       <Label style="-fx-text-fill: #FFFFFF;" text="Total Payment:" GridPane.rowIndex="4" />
-      <TextField opacity="0.6" style="-fx-text-fill: #FFFFFF;" GridPane.columnIndex="1" />
-      <TextField opacity="0.6" style="-fx-text-fill: #FFFFFF;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <TextField opacity="0.6" style="-fx-text-fill: #FFFFFF;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <TextField opacity="0.6" style="-fx-text-fill: #FFFFFF;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <TextField opacity="0.6" style="-fx-text-fill: #FFFFFF;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <TextField opacity="0.6" style="-fx-text-fill: #000000;" GridPane.columnIndex="1" />
+      <TextField opacity="0.6" style="-fx-text-fill: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField opacity="0.6" style="-fx-text-fill: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField opacity="0.6" style="-fx-text-fill: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField opacity="0.6" style="-fx-text-fill: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <Button mnemonicParsing="false" style="-fx-background-color: #90EE90;" text="Calculate" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
    </children>
    <padding>
