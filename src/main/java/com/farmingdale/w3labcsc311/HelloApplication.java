@@ -53,11 +53,13 @@ public class HelloApplication extends Application {
         Label label4 = new Label("Monthly Payment: ");
         GridPane.setConstraints(label4, 0, 3);
         TextField MP = new TextField();
+        MP.setEditable(false);
         GridPane.setConstraints(MP, 1, 3);
         //Total Payment
         Label label5 = new Label("Total Payment: ");
         GridPane.setConstraints(label5, 0, 4);
         TextField TP = new TextField();
+        TP.setEditable(false);
         GridPane.setConstraints(TP, 1, 4);
         //Button
         Button btn = new Button("Calculate");
